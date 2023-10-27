@@ -1,11 +1,15 @@
 
 import random
 
-def generate_word():
+def generate_word_list():
     word_list = ["strawberry", "rasberry", "mango", "peach", "cherry"]
-    print(word_list)
+    # print(word_list)
+    return word_list
+
+def select_word():
     word = random.choice(word_list)
-    print(word)
+    # print(word)
+    return word
 
 def request_letter():
     player_guess = input("Please enter a letter of your choice ")
@@ -14,5 +18,7 @@ def request_letter():
     else:
         print("Oops! That is not a valid input")
 
-generate_word()
-request_letter()
+word_list = generate_word_list()
+word = select_word()
+if __name__=="__main__":
+    letter = request_letter()
