@@ -21,7 +21,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## milestone_2.py
 
 ### Learning objectives
-The objective of this milestone was generate the basic elements of the hangman game using basic python code. This constituted defining some small functions to generate the game variables. 
+The objective of this milestone was to generate the basic elements of the hangman game using basic python code. This constituted defining some small functions to generate the game variables. 
 
 ### Module code summary
 This module contains three functions: 
