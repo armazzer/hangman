@@ -33,7 +33,7 @@ The milestone_3 module contains two functions:
 The aim in this module was to re-factor the hangman game using an OOP approach. A new class was defined to contain the game, and the building blocks (functions) developed in milestone_2 and milestone_3 were utilised and built on within the class (as methods).   
 
 ### Module code summary
-The class Hangman created with a constructor containing the following attributes:
+The class Hangman is created with a constructor containing the following attributes:
 - self.word = a random word selected from the *word_list*.
 - self.word_guessed = a list of underscores with each underscore representing a character in *word*.
 - self.num_letters = the number of unique letters in *word*.  
@@ -42,9 +42,9 @@ The class Hangman created with a constructor containing the following attributes
 - self.list_of_guesses = a list of letters guessed, which is initially empty.
 
 Two methods are defined within the class:
-1. **check_guess** checks whether the guessed letter is in the word. If so, word_guessed is updated with the letter at the appropriate index, and *num_letters* is reduced by 1. 
+1. **check_guess** checks whether the guessed letter is in the word. If so, *word_guessed* is updated with the letter at the appropriate index, and *num_letters* is reduced by 1. 
 If the letter is not in the word, *num_lives* is reduced by 1. In either case a relevant message is printed.
-1. **ask_for_input** requests a guess from the player, checks it's validty and prints a relevant message. Once a valid guess is given, **check_guess** runs as a subfunction, and *list_of_guesses* is updated with the guessed letter. 
+1. **ask_for_input** requests a guess from the player, checks its validty and prints a relevant message. Once a valid guess is given, **check_guess** runs as a subfunction, and *list_of_guesses* is updated with the guessed letter. 
 
 # Temporary header: Things to add to README as per AiCore project instructions
 - Table of Contents, if the file is long.
