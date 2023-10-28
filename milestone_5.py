@@ -54,6 +54,7 @@ class Hangman:
                 
 
 def play_game(word_list):
+    '''This function runs a game using an instance of the Hangman class. The function takes a list of words as an argument.'''
     num_lives = 5
     game = Hangman(word_list, num_lives)
 
