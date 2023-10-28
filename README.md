@@ -41,8 +41,9 @@ The class Hangman is created with a constructor containing the following attribu
 - self.word_list = the *word_list*
 - self.list_of_guesses = a list of letters guessed, which is initially empty.
 
-Two methods are defined within the class:
-1. **check_guess** checks whether the guessed letter is in the word. If so, *word_guessed* is updated with the letter at the appropriate index, and *num_letters* is reduced by 1. 
+Three methods are defined within the class:
+1. **update_word_guessed** iterates through *word* and identifies the position of the correctly guessed letter. *word_guessed* is then updated with the letter at the same index. 
+1. **check_guess** checks whether the guessed letter is in the word. If so, **update_word_guessed** is called, updating *word_guessed* with the letter at the appropriate index, and *num_letters* is reduced by 1. 
 If the letter is not in the word, *num_lives* is reduced by 1. In either case a relevant message is printed.
 1. **ask_for_input** requests a guess from the player, checks its validty and prints a relevant message. Once a valid guess is given, **check_guess** runs as a subfunction, and *list_of_guesses* is updated with the guessed letter. 
 
