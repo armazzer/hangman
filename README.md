@@ -1,7 +1,22 @@
 # Hangman
+**Table of Contents**\
+[Game Intro](#game-intro)\
+[Modules](#modules):
+- [milestone_2](#milestone_2py)
+- [milestone_2](#milestone_2py)
+- [milestone_3](#milestone_3py)
+- [milestone_4](#milestone_4py)
+- [milestone_5](#milestone_5py)
+
+[Installation Instructions](#installation-instructions)\
+[Usage Instructions](#usage-instructions)\
+[File Structure](#file-structure)\
+[License Information](#license-information)
+# Game Intro
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+
 # Modules
 
 ## milestone_2.py
@@ -56,7 +71,24 @@ The objective of this module was to create a function that runs the game for an 
 The script now includes an outer function that runs the game:
 **play_game** contains an instance of the hangman class and an infinite while loop. The class method **ask_for_input** is called until the game is either won or lost. In either case, a message is printed and the loop is exited. 
 
-# Temporary header: Things to add to README as per AiCore project instructions
+# Installation Instructions
+To update.
+
+# Usage Instructions
+To update.
+# File Structure
+To update.
+# License Information
+To update.
+
+ ---
+
+ 
+ \
+ \
+ \
+ \
+ Things to add to README as per AiCore project instructions:
 - Table of Contents, if the file is long.
 - A description of the project: what is does, the aim of the project, and what you learned.
 - Installation instructions
