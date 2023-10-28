@@ -11,14 +11,17 @@ class Hangman:
         self.word_list = word_list
         self.list_of_guesses = []
 
+    def update_word_guessed(self, guess):
+        for char in self.word:
+            if char == guess:
+                position_char = self.word.index(char)
+                self.word_guessed[position_char] = guess
+
     def check_guess(self, guess):
         guess_lower = guess.lower()
         if guess_lower in self.word:
             print(f"Good guess! {guess_lower} is in the word")
-            for char in self.word:
-                if char == guess:
-                    position_char = self.word.index(char)
-                    self.word_guessed[position_char] = guess
+            self.update_word_guessed(guess)
             self.num_letters -= 1
         else:
             self.num_lives -= 1
