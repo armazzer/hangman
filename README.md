@@ -3,7 +3,6 @@
 [Game Intro](#game-intro)\
 [Modules](#modules):
 - [milestone_2](#milestone_2py)
-- [milestone_2](#milestone_2py)
 - [milestone_3](#milestone_3py)
 - [milestone_4](#milestone_4py)
 - [milestone_5](#milestone_5py)
