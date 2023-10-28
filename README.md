@@ -47,6 +47,15 @@ Three methods are defined within the class:
 If the letter is not in the word, *num_lives* is reduced by 1. In either case a relevant message is printed.
 1. **ask_for_input** requests a guess from the player, checks its validty and prints a relevant message. Once a valid guess is given, **check_guess** runs as a subfunction, and *list_of_guesses* is updated with the guessed letter. 
 
+## milestone_5.py
+
+### Learning objectives
+The objective of this module was to create a function that runs the game for an instance of the class Hangman. Since the game methods are coded in the Hangman class, only a simple function was needed here. The while loop was moved from inside the class to outside it (into the play_game function).
+
+### Module code summary
+The script now includes an outer function that runs the game:
+**play_game** contains an instance of the hangman class and an infinite while loop. The class method **ask_for_input** is called until the game is either won or lost. In either case, a message is printed and the loop is exited. 
+
 # Temporary header: Things to add to README as per AiCore project instructions
 - Table of Contents, if the file is long.
 - A description of the project: what is does, the aim of the project, and what you learned.
